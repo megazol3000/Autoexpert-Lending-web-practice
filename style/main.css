@@ -1,0 +1,122 @@
+@import url(navbar.css);
+@import url(hero.css);
+@import url(count.css);
+@import url(one-click.css);
+@import url(what-we-do.css);
+@import url(service.css);
+@import url(addition.css);
+@import url(why.css);
+@import url(risk.css);
+@import url(calc.css);
+@import url(search-auto.css);
+@import url(solutions.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: 'Russo One';
+    src: url('fonts/RussoOne.eot');
+    src: url('fonts/RussoOne.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RussoOne.woff2') format('woff2'),
+         url('fonts/RussoOne.woff') format('woff'),
+         url('fonts/RussoOne.ttf') format('truetype'),
+         url('fonts/RussoOne.svg#RussoOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.container {
+	width: 1140px;
+	margin: auto;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+h1, h2, h3 { 
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Russo One', sans-serif; 
+	color: #333; 
+	font-weight: 200;
+}
+
+p {margin: 0;}
+
+h2 {
+	font-size: 32px;
+}
+
+button, .hero-form-btn {
+	outline: none;
+	box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2); 
+	cursor: pointer;
+	font-weight: 200;
+}
+
+.main-button{
+	-webkit-transition: 0.2s ease;
+	transition: 0.2s ease;
+}
+
+.main-button:hover {background-color: #ffc13a;}
+
+.main-button:active {
+	box-shadow: none;
+	background-color: #ffaf02;
+}
+
+.glass {
+	display: none;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 0; bottom: 0; left: 0; right: 0;
+	z-index: 300;
+}
+.glass-active {
+	display: block;
+}
+
+.form-active {
+	display: block;
+}
+
+
+@media (max-width: 1190px) {
+	.container {width: 1000px;}
+} 
+@media (max-width: 992px) {
+	.container {width: 960px;}
+}
+@media (max-width: 940px) {
+	.container {width: 800px;}
+}
+@media (max-width: 840px) {
+	.container {width: 700px;}
+}
+@media (max-width: 750px) {
+	.container {width: 610px;}
+	.big-button {min-width: 100%;}
+}
+@media (max-width: 640px) {
+	.container {width: 500px;}
+}
+@media (max-width: 530px) {
+	.container {width: 390px;}
+}
+@media (min-width: 0px) and (max-width: 420px) {
+	.container {width: 300px;}
+}
+
+

@@ -1,0 +1,81 @@
+.count {
+	background-color: #fff;
+}
+
+.count-container {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	        align-items: baseline;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+
+	padding: 50px 0;
+}
+.count-card {
+	width: 260px;
+	min-height: 176px;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	        text-align: center;
+}
+
+.count-card h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+.count-card p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.count-card_table {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: baseline;
+	        align-items: baseline;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	min-width: 215px;
+	margin-bottom: 25px;
+
+}
+
+.count-card_table__item {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	width: 50px;
+	height: 70px;
+	background-color: #333;
+	background-image: url(img/count/count-bg.png);
+	background-position: top center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.count-card_table__item p {
+	font-family: 'Russo One', sans-serif;
+	font-size: 48px;
+	color: #fff;
+}
+
+@media (max-width: 1030px) {
+	.count-container {flex-wrap: wrap;}
+	.count-card {min-width: 40%; margin-bottom: 40px;}
+}

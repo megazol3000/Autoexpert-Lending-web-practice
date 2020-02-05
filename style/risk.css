@@ -1,0 +1,113 @@
+.risk {
+	background-color: #f0f0f0;
+}
+.risk-container {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+	padding: 40px 0 50px 0;
+}
+
+.risk-container h2 {
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.risk-cards {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: baseline;
+	        align-items: baseline;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+.risk-card {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+	padding-left: 105px;
+	padding-right: 60px;
+	max-width: 50%;
+	margin-bottom: 30px;
+	min-height: 80px;
+}
+
+.risk-card h3{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.risk-card p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.risk-card1 {
+	background-image: url(img/risk/1.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top left;
+}
+
+.risk-card2 {
+	background-image: url(img/risk/2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top left;
+}
+
+.risk-card3 {
+	background-image: url(img/risk/3.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top left;
+}
+
+.risk-card4 {
+	background-image: url(img/risk/4.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top left;
+}
+
+.risk-card5 {
+	background-image: url(img/risk/5.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top left;
+}
+
+.risk-card6 {
+	background-image: url(img/risk/6.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top left;
+}
+
+.risk-container button {
+		font-family: 'Russo One', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	background-color: #ffaf02;
+	border: none;
+	border-radius: 3px;
+}
+
+@media (max-width: 1030px) {
+	.risk-card {max-width: 95%}
+}
+
+@media (max-width: 750px) {
+	.risk-card p, .calc {display: none;}
+
+}

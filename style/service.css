@@ -1,0 +1,147 @@
+.service {
+	background-color: #333;
+	background-image: url(img/service/service-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.service-container {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 45px 0 60px 0;
+}
+
+.service-container h2 {
+	color: #fff;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.service-cards1, .service-cards2 {
+	min-width: 100%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: baseline;
+	align-items: baseline;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+
+}
+
+.service-card {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	max-width: 555px;
+	min-height: 375px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding: 25px 35px 20px 195px;
+}
+
+.service-card h3 {
+	font-size: 20px;
+	max-width: 235px;
+}
+
+.service-card h2{
+	color: #000;
+	font-size: 18px;
+	max-width: 240px;
+	margin-bottom: 18px;
+}
+.service-card ul {
+	list-style: none;
+	line-height: 20px;
+	padding: 0 0 0 23px;
+	font-size: 14px;
+	max-width: 325px;
+	margin: 20px 0;
+}
+
+.service-card button {
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	background-color: #ffaf02;
+	border: none;
+	border-radius: 3px;
+}
+.service-card1 {
+	background-image: url(img/service/card1.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+}
+
+.service-card2 {
+	background-image: url(img/service/card2.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+}
+
+.service-card3 {
+	background-image: url(img/service/card3.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+}
+
+.service-card4 {
+	background-image: url(img/service/card4.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+}
+
+.service-card ul li{
+	position: relative;
+}
+.service-card ul li::before {
+	content: '';
+	position: absolute;
+	min-width: 13px;
+	min-height: 13px;
+	top: 3px;
+	left: -20px;
+	background-image: url(img/service/check-mark.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+}
+
+@media (max-width: 1190px) {
+	.service-card {
+		background-image: none; 
+		max-width: 48%;
+		padding: 25px 35px 20px 20px
+	}
+	.service-cards1, .service-cards2 {
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 750px) {
+	.service {background-image: none;}
+	.service-cards1, .service-cards2 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+	}
+	.service-card {
+		min-width: 100%;
+	}
+}

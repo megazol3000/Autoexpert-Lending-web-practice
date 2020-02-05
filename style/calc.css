@@ -1,0 +1,74 @@
+.calc {
+	background-color: #fff;
+}
+
+.calc-container {
+	display: -webkit-box;
+	display: flex;
+	padding: 50px 0;
+	-webkit-box-pack: end;
+	        justify-content: flex-end;
+	background-image: url(img/calculator/calc-bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+.calc-container form {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+	padding: 30px 20px;
+	background-color: #ffaf02;
+	text-align: center;
+	min-width: 360px;
+}
+
+.calc-container form h3, .hero-form form h3, .main-form form h3 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.calc-container form p, .hero-form form p, .main-form form p {
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+form select, form input {
+	min-width: 320px;
+	min-height: 40px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 4px;
+	padding-left: 10px;
+	outline:none;
+	
+}
+
+form select {
+	-webkit-appearance: none!important;
+	   -moz-appearance: none!important;
+	        appearance: none!important;
+	        background-image: url(img/calc/arrow-down.svg);
+	        background-repeat: no-repeat;
+	        background-position: 95% 50%;
+	        background-size: 10px 10px;
+}
+
+.calc-container form select option {
+	font-size: 16px;
+	border: none;
+}
+
+.form-btn {
+	background-color: #fff;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #333;
+}

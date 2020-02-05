@@ -1,0 +1,53 @@
+.addition {
+	background-color: #f0f0f0;
+}
+
+.addition-container {
+	padding: 45px 0;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+}
+
+.addition-container h2 {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.addition-cards {
+	min-width: 100%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: baseline;
+	        align-items: baseline;
+	justify-content: space-around;
+}
+
+.addition-card {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	        align-items: center;
+	        text-align: center;
+	        padding: 0 15px;
+}
+.addition-card p {
+	font-family: 'Russo One', sans-serif;
+	font-size: 16px;
+}
+
+.addition-card img {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 750px) {
+	.addition-cards {flex-wrap: wrap;}
+	.addition-card {max-width: 48%; margin-bottom: 40px;}
+}

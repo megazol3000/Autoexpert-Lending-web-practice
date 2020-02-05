@@ -1,0 +1,225 @@
+.what-we-do {
+	background-color: #fff;
+}
+.what-we-do-container {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 45px 0 65px 0;
+}
+.what-we-do-container h2 {
+	margin-bottom: 35px;
+}
+.top-icons, .bottom-icons {
+	/*min-width: 940px;*/
+	min-width: 100%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: baseline;
+	align-items: baseline;
+	justify-content: space-around;
+}
+.top-icons-item {
+	text-align: center;
+	position: relative;
+	min-width: 10%;
+}
+.top-icons-item p {
+	text-decoration: underline;
+	margin: 15px 0;
+}
+.top-car {
+	margin: 30px 0;
+}
+.bottom-icons {
+	margin-bottom: 70px;
+}
+.what-we-do-container button {
+	font-family: 'Russo One', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 20px 60px;
+	background-color: #ffaf02;
+	border: none;
+	border-radius: 3px;
+}
+#i1::before {
+	content: ''; 
+	bottom: -116px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 120px;
+	-webkit-transform: rotate(-65deg);
+	transform: rotate(-65deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#i2::before {
+	content: ''; 
+	bottom: -70px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 74px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#i3::before {
+	content: ''; 
+	bottom: -50px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 54px;
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+#i4::before {
+	content: ''; 
+	bottom: -46px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 50px;
+}
+
+#i5::before {
+	content: ''; 
+	bottom: -50px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 54px;
+	-webkit-transform: rotate(25deg);
+	transform: rotate(25deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#i6::before {
+	content: ''; 
+	bottom: -70px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 74px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#i7::before {
+	content: ''; 
+	bottom: -116px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 120px;
+	-webkit-transform: rotate(65deg);
+	transform: rotate(65deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#i8::before {
+	content: ''; 
+	top: -120px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 120px;
+	-webkit-transform: rotate(65deg);
+	transform: rotate(65deg);
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
+#i9::before {
+	content: ''; 
+	top: -74px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 74px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 100% 100%;
+	        transform-origin: 100% 100%;
+}
+#i10::before {
+	content: ''; 
+	top: -54px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 54px;
+	-webkit-transform: rotate(25deg);
+	transform: rotate(25deg);
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
+#i11::before {
+	content: ''; 
+	top: -50px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 50px;
+}
+#i12::before {
+	content: ''; 
+	top: -54px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 54px;
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
+#i13::before {
+	content: ''; 
+	top: -74px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 74px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
+#i14::before {
+	content: ''; 
+	top: -120px;
+	left: 50%;
+	position: absolute;
+	background-color: #eaeaea;
+	min-width: 1px;
+	min-height: 120px;
+	-webkit-transform: rotate(-65deg);
+	transform: rotate(-65deg);
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
